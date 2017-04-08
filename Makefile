@@ -17,7 +17,7 @@ LFLAGS =
 #=====================================================
 APP = tarefa
 SRC_DIR = src
-INC_DIR = $(SRC_DIR)/inc
+INC_DIR = $(SRC_DIR)/inc -I ~/Dados/Programacao/C++/boost_1_63_0/
 OBJ_DIR = obj
 BIN_DIR = bin
 EXT = cpp

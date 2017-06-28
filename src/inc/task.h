@@ -7,8 +7,7 @@ class Task
 {
 public:
     virtual void execute () = 0;
-
-private:
+    virtual ~Task () {};
 
 };
 
